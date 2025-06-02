@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #ebf6f7;
+}
+/*Cabeçalho*/
+
+.cabecalho {
+  flex-wrap: wrap;  /*quebrar a linha e nao ter o scroll*/
+  display: flex;
+  justify-content: space-evenly;  /*mesmo espaço entre eles*/
+  width: 100%;
+  background-color: #b2ebf2; 
+  padding: 15px;
+  font-family: "Merriweather", serif;
+  font-size: 14.5px;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  padding-top: 10px;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 20px;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-right: 700px; 
+}
+
+/*especificações*/
+
+
+.produto-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #ebf6f7;
+}
+
+.produto-container .zoom-container {
+    width: 700px;
+    height: 670px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #333;
+}
+        
+.zoom-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.1s ease;
+}
+
+.info-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-container img{
+    justify-content: center;
+}
+
+.card-descricao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b2ebf2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.descricao {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.frete-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*estrelas*/
+
+        .stars {
+            cursor: pointer;
+            font-size: 30px;
+            color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .stars .filled {
+            color: gold;
+        }
+        .rating-summary {
+            margin-top: 20px;
+        }
+        .bar {
+            background-color: #eee;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 5px 0;
+            
+        }
+        .bar-fill {
+            height: 20px;
+            border-radius: 5px;
+            
+        }
+
+        .estrela {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            max-width: 900px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            margin-top: 20px;
+}
+
+        .bar-5 { background-color: #00b894; }
+        .bar-4 { background-color: #0984e3; }
+        .bar-3 { background-color: #00cec9; }
+        .bar-2 { background-color: #e17055; }
+        .bar-1 { background-color: #d63031; }
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px; /* Espaçamento entre as barras */
+            width: 850px;
+        }
+
+/* Torna o container responsivo */
+.zoom-container {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    aspect-ratio: 1/1; /* Mantém proporção quadrada */
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #333;
+}
+
+/* Torna a imagem responsiva dentro do container */
+.zoom-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.1s ease;
+}
+
+/* Ajusta o posicionamento para telas menores */
+.container {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Ajusta o texto para ocupar 100% em telas pequenas */
+.texto p {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
+
+
+@media (max-width: 1000px) {
+    .estrela {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .row {
+        width: 100%;
+    }
+}
+/*Footer*/
+
+.testeimg{
+  margin-top: 25px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #b2ebf2;
+  margin-top: 35px;
+}
+.footer-top{
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.cartas{
+  border-left: 4px solid white;
+}
+.Newslatter {
+  color:rgb(12, 12, 12);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.botaoin{
+  background-color: white;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+}
+.botaoin:hover{
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+}
+.fundoin {
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.correio{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer  ul{
+  list-style-type: none;
+  gap: 8px;
+}
+
+.icons{
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  margin-top: 10px;
+}

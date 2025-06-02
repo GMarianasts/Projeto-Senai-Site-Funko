@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="imagex/png" href="Icons/Logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarPop</title>
+    <link rel="stylesheet" href="Produto.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+  <header>
+    <!--Cabeçalho e navegação site (Padrão do site)-->
+    <div class="cabecalho">
+      <div class="logo"><a href="../index.html"><img src="../Icons/Logo.png" width="180px"></a></div>
+        <ul>
+          <li><a href="../index.html" >Home</li>
+          <li><a href="../animes.html">Animes</a></li>
+          <li><a href="../games.html">Games</a></li>
+          <li><a href="../filme.html">Filmes</a></li>
+          <li><i class="bi bi-cart2"></i></li>
+          <a href="../carrinho.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+          </svg></a><!--Imagem do carrinho de compra-->
+        </ul>
+    </div>
+</header>
+      <div class="produto-container">
+        <div class="zoom-container">
+            <img 
+                src="../IMG-Produtos/barbie.png" 
+                alt="Imagem com Zoom" 
+                class="zoom-image"/>
+        </div>
+
+        <div class="info-container">
+            <div class="card-descricao">
+                <strong style="font-size: 35px;">
+                    Funko Pop! Barbie - Barbie Western
+                    <br><br>
+                    R$136,81
+                    <br>Em até 4x R$ 34,21 sem juros<br><br>
+                    <img src="../Icons/fretegratis.png" alt="Frete Grátis" width="700px">
+                </strong>   
+                </div>
+                
+            
+            <div class="descricao" style="font-size: 25px;">
+                <strong>Descrição START POP</strong>
+                <p>
+                    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.
+                </p>
+                <strong>Características do Produto</strong>
+                <ul>
+                    <li>→ Boneco de PVC/Plástico (Vinil).</li>
+                    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>
+                    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>
+                    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>
+                </ul>
+                <p>
+                    A Start POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="estrela">
+        <div id="starRating" class="stars"></div>
+        <p id="averageRating"></p>
+        <div class="rating-summary" id="ratingSummary"></div>
+    </div>
+        
+    <footer class="fixar"><!--Footer-->
+            <div class="footer-top">
+                <div class="testeimg"><img src="../Icons/Logo.png" width="250px"/><!--Logo-->
+                </div>
+                <div class="cartas">
+                    <ul>
+                        <h3 class="Newslatter">Starpop</h3>
+                        <li><a href="animes.html">Animes</a></li>
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="filme.html">Filmes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h3 class="Newslatter">Redes Sociais</h3>
+                        <div class="icons">
+                            <li><a href="https://x.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div>
+                    <form class="Newslatter" id="newsletter-form">
+                        <h3>Inscreva-se na nossa Newsletter</h3>
+                        <div class="correio">
+                            <input class="fundoin" type="email" id="user_email" placeholder="E-mail" required>
+                            <input class="fundoin" type="text" id="user_name" placeholder="Nome" required>
+                        </div>
+                        <button class="botaoin" type="submit" style="color: black;">Inscreva-se</button>
+                    </form>
+                    
+                    <!-- Use a versão mais recente do EmailJS SDK -->
+                    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                    <script>
+                        // Inicialize o EmailJS com sua Public Key
+                        emailjs.init('XYvjGFCR7gBYdmGEX');
+                    
+                        document.getElementById("newsletter-form").addEventListener("submit", function(e) {
+                            e.preventDefault();
+                    
+                            const email = document.getElementById("user_email").value.trim();
+                            const name = document.getElementById("user_name").value.trim();
+                    
+                            if (!email || !name) {
+                                alert("Por favor, preencha todos os campos.");
+                                return;
+                            }
+                    
+                            // Envie o email usando a versão atualizada da API
+                            emailjs.send("service_wv8mm9a", "template_h5kks7s", {
+                                nome: name,
+                                email: email
+                            })
+                            .then(function(response) {
+                                console.log("SUCCESS!", response.status, response.text);
+                                alert("Inscrição realizada com sucesso! Um e-mail foi enviado para " + email);
+                                document.getElementById("newsletter-form").reset();
+                            }, function(error) {
+                                console.log("FAILED...", error);
+                                alert("Falha ao enviar a inscrição. Por favor, tente novamente mais tarde.");
+                            });
+                        });
+                    </script>
+            <div>
+        </footer>
+    
+        
+
+
+
+    <script>
+        const zoomImage = document.querySelector('.zoom-image');
+        const container = document.querySelector('.zoom-container');
+
+        container.addEventListener('mousemove', (e) => {
+            const { left, top, width, height } = container.getBoundingClientRect();
+            const x = (e.clientX - left) / width;
+            const y = (e.clientY - top) / height;
+            
+            zoomImage.style.transformOrigin = `${x * 100}% ${y * 100}%`;
+            zoomImage.style.transform = 'scale(2)';
+        });
+
+        container.addEventListener('mouseleave', () => {
+            zoomImage.style.transform = 'scale(1)';
+        });
+
+
+
+        //Estrelas
+        const ratings = {5: 150, 4: 63, 3: 15, 2: 6, 1: 20};
+
+function calculateAverage() {
+    const totalVotes = Object.values(ratings).reduce((a, b) => a + b, 0);
+    const totalScore = Object.entries(ratings).reduce((sum, [stars, count]) => sum + stars * count, 0);
+    return (totalScore / totalVotes).toFixed(1);
+}
+
+function renderStars() {
+    const avg = calculateAverage();
+    const container = document.getElementById('starRating');
+    container.innerHTML = '';
+    for (let i = 1; i <= 5; i++) {
+        const star = document.createElement('span');
+        star.innerHTML = (i <= Math.round(avg)) ? '★' : '☆';
+        star.classList.add('star');
+        if (i <= avg) star.classList.add('filled');
+        star.onclick = () => {
+            ratings[i]++;
+            render();
+        };
+        container.appendChild(star);
+    }
+}
+
+function renderSummary() {
+    const container = document.getElementById('ratingSummary');
+    container.innerHTML = '';
+    const total = Object.values(ratings).reduce((a, b) => a + b, 0);
+
+    for (let i = 5; i >= 1; i--) {
+        const percent = (ratings[i] / total) * 100;
+        const row = document.createElement('div');
+        row.classList.add('row');
+
+        row.innerHTML = `
+            <div style="width: 50px;">${i} star</div>
+            <div class="bar" style="flex:1; margin: 0 10px;">
+                <div class="bar-fill bar-${i}" style="width:${percent}%;"></div>
+            </div>
+            <div>${ratings[i]}</div>
+        `;
+        container.appendChild(row);
+    }
+}
+
+function render() {
+    renderStars();
+    renderSummary();
+    document.getElementById('averageRating').innerText =
+        `${calculateAverage()} average based on ${Object.values(ratings).reduce((a, b) => a + b, 0)} reviews.`;
+}
+
+render();
+    </script>
+</body>
+</html>
