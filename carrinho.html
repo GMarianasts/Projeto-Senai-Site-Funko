@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Informações de visual da aba-->
+        <link rel="shortcut icon" type="imagex/png" href="Icons/Logo.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StarPop</title>
+        <link rel="stylesheet" href="carrinho.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js?version=3.3.0"></script>
+        
+
+    <script>//Script para utlizar a API para enviar e-mails
+        // Inicializa o EmailJS com seu User ID
+        (function() {
+            emailjs.init("XYvjGFCR7gBYdmGEX"); // ID da minha conta, feita com o e-mail pessoal somente para testar.
+        })();
+    </script>
+
+    </head>
+    <body>
+        <header>
+            <nav>
+              <div class="cabecalho">
+               <div class="logo"><a href="index.html"><img src="Icons/Logo.png" width="180px"></a></div>
+                  <ul>
+                    <li><a href="index.html" >Home</li>
+                    <li><a href="animes.html">Animes</a></li> 
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="filme.html">Filmes</a></li>
+                    <li><i class="bi bi-cart2"></i></li>
+                    <a href="carrinho.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                      <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                    </svg></a>
+                  </ul>
+              </div>
+            </nav>
+          </header>
+
+        <div class="left-right"><!--Divisão para separar as informações do carrinho-->
+            <div class="lacuna"><!--Divisão para separar os formularios-->
+                <div class="step active">
+                    <form><!--Formulario de informações pessoais-->
+                        <div class="formulario">
+                            <h2>Suas informações</h2>
+                            <label>Nome completo<input type="text" name="Nome" placeholder=" Ex: Kim Minji" /></label>
+                            <label>E-mail<input type="email" name="E-mail" placeholder=" Ex: funko@pop.com" /></label>
+                            <label>CPF<input type="number" name="CPF" placeholder=" Ex: 123.456.789-00" /></label>
+                            <label>Telefone<input type="number" name="telefone" placeholder=" Ex: (00) 12345-6789"/></label>
+                            <label>Data de nascimento<input type="text" name="nascimento" placeholder=" Ex: 01/02/03"/></label>
+
+                            <div id="erro-nome" style="color: red; margin-bottom: 5px;"></div>
+                            <div id="erro-email" style="color: red; margin-bottom: 10px;"></div>
+                            <div id="erro-cpf" style="color: red; margin-bottom: 5px;"></div>
+                            <div id="erro-telefone" style="color: red; margin-bottom: 5px;"></div>
+                            <div id="erro-nascimento" style="color: red; margin-bottom: 5px;"></div>
+                            <!--divisorias para mensagens de alerta-->
+                            <div>
+                                <button type="button" onclick="nextStep()">Avançar</button><!--Botão de avançar no formulario-->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="step">
+                    <form><!--Formulario de informações de endereço-->
+                        <div class="formulario">
+                            <h2>Informações de endereço</h2>
+                            <label>CEP<input type="number" name="CEP" placeholder=" Ex: 01234-567" /></label>
+                            <label>Endereço<input type="text" name="Endereço" placeholder=" Ex: Rua dos funkos, número 7" /></label>
+                            <label>Complemento *Se houver*<input type="text" name="Complemento" placeholder=" Ex: Apartamento 4, bloco 2"/></label>
+                            <label>Cidade<input type="text" name="Cidade" placeholder=" Ex: Funkolandia"/></label>
+                            <label>Destinatario<input type="text" name="Destinatario" placeholder=" Ex: Pham Hanni"/></label>
+
+                            <div id="erro-cep" style="color: red; margin-bottom: 5px;"></div>
+                            <div id="erro-endereco" style="color: red; margin-bottom: 5px;"></div>
+                            <div id="erro-cidade" style="color: red; margin-bottom: 5px;"></div>
+                            <div id="erro-destinatario" style="color: red; margin-bottom: 5px;"></div>
+                            <!--Divisorias para mensagens de alerta-->
+                            <div>
+                                <button type="button" onclick="prevStep()">Voltar</button><!--Botão para retornar de formulario-->
+                                <button type="button" onclick="nextStep()">Avançar</button><!--Botão para avançar de formulario-->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="step">
+                    <form><!--Formulario Final, informações de pagamento-->
+                        <div class="formulario">
+                            <h2>Informações do cartão</h2>
+                            <label>Número do cartão<input type="number" name="cartao" placeholder=" Ex: 1234 5678 8901 2345" /></label>
+                            <label>Nome no cartão<input type="text" name="nomecartao" placeholder=" Ex: Mo Dani" /></label>
+                            <label>validade do cartão<input type="number" name="validade" placeholder=" Ex: 07/32"/></label>
+                            <label>cvv<input type="number" name="cvv" placeholder=" Ex: 777"/></label>
+                            <label for="Pagamento">Quantas parcelas:
+                                <select id="Pagamento" name="QuantidadeDeParcela">
+                                <option value="1x">A vista</option>
+                                <option value="2x">2x sem juros</option>
+                                <option value="3x">3x com juros de 10%</option>
+                                </select>
+                            </label>
+                            <div id="erro-cartao" style="color: red;"></div>
+                            <div id="erro-nome-cartao" style="color: red;"></div>
+                            <div id="erro-validade" style="color: red;"></div>
+                            <div id="erro-cvv" style="color: red;"></div>
+                            <!--Divisorias para mensagens de alerta-->
+
+                            <div>
+                                <button type="button" onclick="prevStep()">Voltar</button><!--Botão para voltar o formulario-->
+                                <button type="submit" onclick="enviarFormulario(event)">Enviar</button><!--Botão para finalizar os formularios-->
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        <div class="CarrinhoCompras"><!--Divisão do carrinho de compras-->
+            <section>
+                <h2>carrinho</h2>
+                <table class="tabela-carrinho">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Preço</th>
+                        <th>QTDE</th>
+                    </tr>
+                </thead>
+                <tbody id="itens-carrinho">
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">
+                            <strong>TOTAL</strong>
+                            <span id="total-carrinho">R$0.00</span>
+                        </td>
+                    </tr>
+                </tfoot>
+                </table>
+            </section>
+        </div>
+        </div>
+        </div>
+        <footer class="fixar"><!--Footer-->
+            <div class="footer-top">
+                <div class="testeimg"><img src="Icons/Logo.png" width="250px"/><!--Logo-->
+                </div>
+                <div class="cartas">
+                    <ul>
+                        <h3 class="Newslatter">Starpop</h3>
+                        <li><a href="animes.html">Animes</a></li>
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="filme.html">Filmes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h3 class="Newslatter">Redes Sociais</h3>
+                        <div class="icons">
+                            <li><a href="https://x.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div>
+                    <form class="Newslatter" id="newsletter-form">
+                        <h3>Inscreva-se na nossa Newsletter</h3>
+                        <div class="correio">
+                            <input class="fundoin" type="email" id="user_email" placeholder="E-mail" required>
+                            <input class="fundoin" type="text" id="user_name" placeholder="Nome" required>
+                        </div>
+                        <button class="botaoin" type="submit" style="color: black;">Inscreva-se</button>
+                    </form>
+                    
+                   <!-- Script para funcionamenton da newslatter -->
+                  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                  <script src="Scripts/newslatter.js"></script>
+            <div>
+        </footer>
+        <script src="Scripts/carrinho.js">//Script para funcionamento do carrinho</script>
+
+        <script src="Scripts/forms.js"> //Script para funcionamento da troca de abas de informações</script>
+
+        <script src="Scripts/lastform.js">/*Este script é para a ultima parte da validação do formulario, onde ocorre a verificação do cartão, e ela esta separado porque quando ela esta junta das outras funções o formulario final acaba sendo enviado mesmo sem a validação do cartão, além também de possuir uma API para enviar e-mail de confirmação */</script>
+    
+    </body>
+</html>

@@ -1,0 +1,294 @@
+/*Cabeçalho*/
+
+/* Aplica box-sizing para todos os elementos e remove margens padrão */
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Cor de fundo da página */
+body{
+background-color: #ebf6f7;
+}
+
+/* Estilização da div "cabecalho" */
+.cabecalho {
+flex-wrap: wrap;  /*quebrar a linha e nao ter o scroll*/
+display: flex;
+justify-content: space-evenly;  /*mesmo espaço entre eles*/
+width: 100%;
+background-color: #b2ebf2; 
+padding: 15px;
+font-family: "Merriweather", serif;
+font-size: 14.5px;
+}
+
+/* Lista dentro do header */
+header ul {
+list-style-type: none;
+display: flex;
+padding-top: 10px;
+}
+
+/* Itens da lista */
+header li {
+  display: inline-block;
+  margin-right: 20px;
+  align-items: center;
+
+}
+
+/* Links em geral */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Logo alinhada à esquerda com espaçamento */
+.logo{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-right: 700px; 
+}
+
+/* Linha de novidades */
+.mid{
+justify-content: center;
+align-items: center;
+padding: 10px;
+text-align: center;
+background-color: #b2ebf2;
+border-top: 5px solid #e0f7fa;
+border-bottom: 5px solid #e0f7fa;
+
+}
+
+
+
+/* Carrosel */
+/* corpo do carrosel*/
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Container do slideshow */
+.slideshow-container {
+max-width: 100%;
+position: relative;
+margin: auto;
+border-top: 10px solid #e0f7fa;
+}
+
+/* Bolinhas indicadoras do carrossel */
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: none;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: none;
+}
+
+/* Definição da animação */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* Ajuste para telas muito pequenas */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+
+/* Espaçamento entre seções */
+.espaca{
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 2000px;
+padding: 100px;
+gap: 155px;
+}
+
+
+/*Imagens funko*/
+
+.espaca2{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 150px;
+gap: 215px;
+}
+
+/* Espaço ao redor das imagens */
+.espaca2 img{
+padding: 30px;
+}
+
+
+/* Funkos*/
+.grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsivo e ajustável */
+gap: 150px; /* Espaço interno mais uniforme */
+padding: 40px 80px;
+margin-right: 190px;
+margin-left: 180px;
+}
+
+
+/* Estilo dos cards dos produtos */
+figure {
+background-color: #b2ebf2;
+border-radius: 16px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+padding: 20px;
+text-align: center;
+transition: transform 0.5s ease;
+min-height: 500px; /* Aumente conforme desejado */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+font-family: Verdana, sans-serif
+}
+
+/* Efeito de zoom ao passar o mouse */
+figure:hover {
+transform: scale(1.03);
+transition: transform 0.8s ease;
+}
+
+/* Imagens dos produtos */
+figure img {
+width: 100%;
+height: auto;
+object-fit: contain;
+max-height: 300px; /* Define um limite de altura consistente */
+margin: 0 auto 10px auto; /* Centraliza a imagem */
+display: block;
+margin-top: 60px;
+}
+
+/* Nome ou descrição do produto */
+figure span {
+font-weight: bold;
+display: block;
+margin: 10px 0;
+}
+
+/* Botão adicionar ao carrinho */
+button {
+border: 1px solid black;
+cursor: pointer;
+transition: background-color 0.2s ease;
+border: none;
+border-radius: 5px;
+padding: 12px 20px;
+font-size: 16px;
+background-color: #282A35;
+color: white;
+position: relative;
+}
+
+/* Efeito hover no botão */
+button:hover {
+background-color: #909fa1;
+}
+
+/* Espaçamento entre imagem e valor do produto */v
+.valor{ /* distancia do preço e do botão para a imagem do funko*/
+margin-top: 65px;
+}
+
+
+/*Footer*/
+
+/* Logo rodapé*/
+.testeimg{ 
+margin-top: 25px;
+}
+
+/* Container principal do rodapé */
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:  #b2ebf2;
+}
+
+/* Parte superior do rodapé */
+.footer-top{
+width: 80%;
+margin-top: 50px;
+margin-bottom: 50px;
+display: flex;
+align-content: center;
+justify-content: space-between;
+}
+
+/* Seção com borda na esquerda */
+.cartas{
+border-left: 4px solid white;
+}
+
+.Newslatter {
+color:rgb(12, 12, 12);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Botão de envio da newsletter */
+.botaoin{
+background-color: white;
+width: 100%;
+margin-top: 10px;
+padding: 10px;
+border-radius: 30px;
+border: none;
+}
+
+/* Efeito hover no botão */
+.botaoin:hover{
+transition: all 0.3s ease;
+transform: scale(1.05);
+}
+
+
+/* Input do campo de email */
+.fundoin {
+background-color: white;
+padding: 10px;
+border-radius: 30px;
+border: none;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Texto de email*/
+.correio{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Lista no rodapé */
+footer  ul{
+list-style-type: none;
+gap: 8px;
+}
+
+/* Ícones de redes sociais */
+.icons{
+display: flex;
+gap: 8px;
+justify-content: space-between;
+margin-top: 10px;
+}

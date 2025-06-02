@@ -1,0 +1,323 @@
+/*Cabeçalho*/
+
+/* Aplica box-sizing para todos os elementos e remove margens padrão */
+*{
+  box-sizing: border-box;
+  margin: 0;
+ 
+}
+
+/* Remove margem e padding padrão do html e body e define altura de 100% para preencher a tela */
+html, body {
+margin: 0;
+padding: 0;
+height: 100%;
+}
+
+/* Estilização do body */
+body{
+background-color: #ebf6f7;
+display: flex;             /* Transforma o body em um Flex Container */
+flex-direction: column;    /* Organiza os filhos (header, main, footer) em coluna */
+}
+
+
+main {
+flex-grow: 1; /* Faz o main ocupar todo o espaço restante */
+padding: 0px; /* Adiciona um padding geral ao conteúdo principal */
+line-height: 1.6;
+}
+
+/* Estilização da div "cabecalho" */
+.cabecalho {
+flex-wrap: wrap;
+display: flex;
+justify-content: space-evenly;
+align-items: right;
+width: 100%;
+background-color: #b2ebf2;
+padding: 15px;
+font-family: "Merriweather", serif;
+font-size: 14.5px;
+}
+
+/* Lista dentro do header */
+header ul {
+list-style-type: none; /* Remove marcadores */
+display: flex;
+padding-top: 10px;
+}
+
+/* Itens da lista */
+header li {
+  display: inline-block;
+  margin-right: 15px;
+  align-items: center;
+
+}
+
+/* Links em geral */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Logo alinhada à esquerda com espaçamento */
+.logo{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  
+}
+
+/* Funkos*/
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsivo e ajustável */
+gap: 24px; /* Espaço interno mais uniforme */
+padding: 40px 40px;
+max-width: 1500px; /* Largura máxima do conteúdo */
+margin: 0 auto;
+min-height: calc(100vh -40px);
+padding-bottom: 40px;
+overflow: auto;
+}
+
+/* Estilo dos cards dos produtos */
+figure {
+background-color: #b2ebf2;
+border-radius: 16px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+padding: 20px;
+text-align: center;
+transition: transform 0.5s ease;
+min-height: 500px; /* Aumente conforme desejado */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+font-family: Verdana, sans-serif
+}
+
+/* Efeito hover no card */
+figure:hover {
+transform: scale(1.03);
+transition: transform 0.8s ease;
+}
+
+/* Imagem do produto dentro do card */
+figure img {
+width: 100%;
+height: auto;
+object-fit: contain;
+max-height: 300px; /* Define um limite de altura consistente */
+margin: 0 auto 10px auto; /* Centraliza a imagem */
+display: block;
+}
+
+/* Nome ou descrição do produto */
+figure span {
+font-weight: bold;
+display: block;
+margin: 10px 0;
+}
+
+
+/* Botão adicionar ao carrinho */
+button {
+border: 1px solid black;
+cursor: pointer;
+transition: background-color 0.2s ease;
+border: none;
+border-radius: 5px;
+padding: 12px 20px;
+font-size: 16px;
+background-color: #282A35;
+color: white;
+position: relative;
+}
+
+/* Efeito hover no botão */
+button:hover {
+background-color: #909fa1;
+}
+
+/* Icone de edição limitada, no botão adicionar ao carrinho */
+.limitado {
+width: 75px;
+font-size: 14px;
+padding: 4px;
+position: absolute;
+right: -20px;
+top: -20px;
+text-align: center;
+border-radius: 25px;
+transform: rotate(20deg);
+background-color: #ff9800;
+color: white;
+}
+
+
+/* Icone de desconto no preço, no botão adicionar ao carrinho */
+.desconto{
+width: 70px;
+font-size: 14px;
+padding: 4px;
+position: absolute;
+right: -20px;
+top: -20px;
+text-align: center;
+border-radius: 25px;
+transform: rotate(20deg);
+background-color: #00ff44;
+color: white;
+}
+
+/* Icone de aumento no preço, no botão adicionar ao carrinho */
+.aumento{
+width: 70px;
+font-size: 14px;
+padding: 4px;
+position: absolute;
+right: -20px;
+top: -20px;
+text-align: center;
+border-radius: 25px;
+transform: rotate(20deg);
+background-color: #ff0000;
+color: white;
+}
+
+
+/* Escrita EM BREVE */
+p{
+background-color:#a70b0b;
+color: white;
+}
+
+
+/* Grupo de input (o campo e o ícone) */
+.input-group {
+position: relative; /* Essencial para posicionar o ícone */
+width: 300px; /* Largura do campo de busca */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+border-radius: 25px; /* Bordas arredondadas */
+overflow: hidden; /* Garante que a sombra e borda se apliquem corretamente */
+margin-left: 140px; /* Centraliza horizontalmente */
+}
+
+/* Estilos para o ícone */
+.input-icon {
+position: absolute;
+left: 15px; /* Distância do ícone da borda esquerda */
+top: 50%;
+transform: translateY(-50%); /* Centraliza verticalmente */
+color: #888; /* Cor do ícone */
+font-size: 18px; /* Tamanho do ícone */
+pointer-events: none; /* Garante que o ícone não interfira com o input */
+}
+
+/* Estilos para o campo de input */
+.input-field {
+width: 100%;
+padding: 12px 12px 12px 50px; /* Padding para o texto, 50px para o ícone */
+border: none; /*Remove a borda padrão */
+outline: none; /*Remove o outline ao focar */
+font-size: 16px;
+color: #333;
+background-color: #fff;
+border-radius: 25px; /* Bordas arredondadas */
+transition: all 0.3s ease; /* Transição suave para efeitos de hover/focus */
+}
+
+/* Estilos quando o campo de input está focado */
+.input-field:focus {
+box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3); /* Sombra azul ao focar */
+}
+
+/* Estilos para o placeholder */
+.input-field::placeholder {
+color: #aaa;
+}
+
+
+
+/*Footer*/
+
+/* Logo rodapé*/
+.testeimg{
+margin-top: 25px;
+}
+
+/* Footer container */
+footer{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:  #b2ebf2;
+}
+
+/* Parte superior do footer */
+.footer-top{
+width: 80%;
+margin-top: 50px;
+margin-bottom: 50px;
+display: flex;
+align-content: center;
+justify-content: space-between;
+}
+
+/* Bordas esquerda branca para cartas no footer */
+.cartas{
+border-left: 4px solid white;
+}
+
+/* Botão de envio da newsletter */
+.Newslatter {
+color:rgb(12, 12, 12);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Botão de envio da newsletter */
+.botaoin{
+background-color: white;
+width: 100%;
+margin-top: 10px;
+padding: 10px;
+border-radius: 30px;
+border: none;
+}
+
+/* Efeito hover no botão */
+.botaoin:hover{
+transition: all 0.3s ease;
+transform: scale(1.05);
+}
+
+/* Estilo geral de fundo em inputs */
+.fundoin {
+background-color: white;
+padding: 10px;
+border-radius: 30px;
+border: none;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilo do texto do campo de email */
+.correio{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Listas no footer */
+footer  ul{
+list-style-type: none;
+gap: 8px;
+}
+
+/* Ícones de redes sociais */
+.icons{
+display: flex;
+gap: 8px;
+justify-content: space-between;
+margin-top: 10px;
+}

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="imagex/png" href="Icons/Logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarPop</title>
+    <link rel="stylesheet" href="games.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <script src="Scripts/carrEpes.js"></script>
+
+   <!-- Cabeçalho -->
+<header>
+  <nav>
+    <div class="cabecalho">
+      <div class="logo"><a href="index.html"><img src="Icons/Logo.png" width="180px"></a></div>
+
+        <!-- Barra de pesquisa  -->
+      <div id="container">
+        <div class="input-group">
+          <div class="input-icon">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+          </div>
+
+          <input id="search"  type="text" class="input-field" placeholder="Pesquisar">
+        </div>
+     </div>
+
+        <ul>
+          <li><a href="index.html" >Home</li>
+            <li><a href="animes.html">Animes</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="filme.html">Filmes</a></li>
+          <li><i class="bi bi-cart2"></i></li>
+          <a href="carrinho.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+          </svg></a>
+        </ul>
+    </div>
+  </nav>
+</header>
+
+ <!-- Imagem de destaque (parte games) -->
+    <main>
+       <img src="Icons/DestaquesGames.png" width="100%" alt="">
+
+        <!-- Container com os produtos -->
+        <section>
+            <div class="grid-container">
+              <figure>
+                <strong>Funko Pop! Five Nights at Freddy's - Twisted Bonnie</strong>
+                <a href="Especificacoes/FunkoBonnieFNF.html" target="_blank"><img src="IMG-Produtos/bonnie_FiveNight.png"width="300px" height="430px" alt="Funko 1" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/bonnie_FiveNight1.png';"
+                onmouseout="this.src='IMG-Produtos/bonnie_FiveNight.png';" ></a>
+              <div>
+                <div>
+                  <span>R$156,55</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Twisted Bonnie"
+                          data-nome="Twisted Bonnie"
+                          data-preco="156.55"
+                          data-imagem="IMG-Produtos/bonnie_FiveNight.png">Adicionar ao Carrinho <span class="desconto">- 15%</span></button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Crash Bandicoot - Crash  </strong>
+                <a href="Especificacoes/FunkoCrash.html" target="_blank"><img src="IMG-Produtos/crash.png"width="300px" height="430px" alt="Funko 2" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/crash1.png';"
+                onmouseout="this.src='IMG-Produtos/crash.png';" ></a>
+                <div>
+                 
+                  <div>
+                    <span>R$598,99</span>
+                    <button type="button" class="adicionar-carrinho"
+                            data-id="Crash Bandicoot"
+                            data-nome="Crash Bandicoot"
+                            data-preco="598.99"
+                            data-imagem="IMG-Produtos/crash.png">Adicionar ao Carrinho <span class="limitado">LIMITADO</span></button>
+                  </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Assassin's Creed - Eivor </strong>
+                <a href="Especificacoes/FunkoEivor.html" target="_blank"><img src="IMG-Produtos/eivor.png"width="300px" height="430px" alt="Funko 3" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/eivor1.png';"
+                onmouseout="this.src='IMG-Produtos/eivor.png';" ></a>
+                <div>
+                  <span>R$139,99</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Eivor"
+                          data-nome="Eivor"
+                          data-preco="139.99"
+                          data-imagem="IMG-Produtos/eivor.png">Adicionar ao Carrinho </button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Sonic - Sonic com Esmeralda </strong>
+                <a href="Especificacoes/FunkoSonic.html" target="_blank"><img src="IMG-Produtos/sonic.png"width="300px" height="430px" alt="Funko 4" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/sonic1.png ';"
+                onmouseout="this.src='IMG-Produtos/sonic.png';" ></a>
+                <div>
+                  <span>R$137,00</span>
+                 <button type="button" class="adicionar-carrinho"
+                          data-id="Sonic"
+                          data-nome="Sonic"
+                          data-preco="137.00"
+                          data-imagem="IMG-Produtos/sonic.png">Adicionar ao Carrinho</button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Mortal Kombat - Sub Zero </strong>
+                <a href="Especificacoes/FunkoSubzero.html" target="_blank"><img src="IMG-Produtos/subZero.png"width="300px" height="430px" alt="Funko 5" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/subZero1.png ';"
+                onmouseout="this.src='IMG-Produtos/subZero.png';" ></a>
+                <div>
+                  <span>R$810,00</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Sub Zero"
+                          data-nome="Sub Zero"
+                          data-preco="810.00"
+                          data-imagem="IMG-Produtos/subZero.png">Adicionar ao Carrinho  <span class="limitado">LIMITADO</span></button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong> Funko Pop! League of Legends - Viego  </strong>
+                <a href="Especificacoes/FunkoViego.html" target="_blank"><img src="IMG-Produtos/viego.png"width="300px" height="430px" alt="Funko 6" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/viego1.png ';"
+                onmouseout="this.src='IMG-Produtos/viego.png';"></a>
+                <div>
+                  <span>R$153,00</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Viego"
+                          data-nome="Viego"
+                          data-preco="153.00"
+                          data-imagem="IMG-Produtos/viego.png">Adicionar ao Carrinho</button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Overwatch 2- Echo (Brilha no escuro)</strong>
+                <a href="Especificacoes/FunkoEcho.html" target="_blank"><img src="IMG-Produtos/Echo.png"width="300px" height="430px" alt="Funko 7" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/echo1.png ';"
+                onmouseout="this.src='IMG-Produtos/echo.png';" ></a>
+                <div>
+                  <span>R$259,17</span>
+                   <button type="button" class="adicionar-carrinho"
+                          data-id="Echo"
+                          data-nome="Echo"
+                          data-preco="259.17"
+                          data-imagem="IMG-Produtos/echo.png">Adicionar ao Carrinho  <span class="limitado">LIMITADO</span></button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Minecraft - Steve</strong>
+                <a href="Especificacoes/FunkoSteve.html" target="_blank"><img src="IMG-Produtos/steve.png"width="300px" height="430px" alt="Funko 8" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/steve1.png ';"
+                onmouseout="this.src='IMG-Produtos/steve.png';" ></a>
+                <div>
+                  <span>R$255,47</span>
+                   <button type="button" class="adicionar-carrinho"
+                          data-id="Steve"
+                          data-nome="Steve"
+                          data-preco="255.47"
+                          data-imagem="IMG-Produtos/steve.png">Adicionar ao Carrinho</button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! World of Warcraft - The Lich King </strong>
+                <a href="Especificacoes/FunkoTheLickKing.html" target="_blank"><img src="IMG-Produtos/TheLickKing.png"width="300px" height="430px" alt="Funko 9" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/TheLickKing1.png ';"
+                onmouseout="this.src='IMG-Produtos/TheLickKing.png';" ></a>
+                <div>
+                  <span>R$149,00</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="The Lich King"
+                          data-nome="The Lich King"
+                          data-preco="149.00"
+                          data-imagem="IMG-Produtos/TheLickKing.png">Adicionar ao Carrinho <span class="desconto">- 5%</span></button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong> Funko Pop! Ghost Of Tsushima - Jin Sakai</strong>
+                <a href="Especificacoes/FunkoJinSakai.html" target="_blank"><img src="IMG-Produtos/JinSakai.png"width="300px" height="430px" alt="Funko 10" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/JinSakai1.png ';"
+                onmouseout="this.src='IMG-Produtos/JinSakai.png';" ></a>
+                <div>
+                  <span>R$1141,76</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Jin Sakai"
+                          data-nome="Jin Sakai"
+                          data-preco="114.76"
+                          data-imagem="IMG-Produtos/JinSakai.png">Adicionar ao Carrinho</button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! God of War - Kratos com Machado </strong>
+                <img src="IMG-Produtos/kratos.png" width="300px" height="430px" alt="Funko 11" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/kratos1.png ';"
+                onmouseout="this.src='IMG-Produtos/kratos.png';" >
+                <div>
+                  <p>EM BREVE</p>
+                 </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! The Last of Us - Joel Miller</strong>
+                <img src="IMG-Produtos/joel.png" width="300px" height="430px" alt="Funko 12" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/joel1.png ';"
+                onmouseout="this.src='IMG-Produtos/joel.png';" >
+                <div>
+                  <p>EM BREVE</p>
+                 </div>
+              </figure>
+
+               <figure>
+                <strong> Funko Pop!  Mortal Kombat 11 - Kitana</strong>
+                <img src=" IMG-Produtos/Kitana.png" width="300px" height="430px" alt="Funko 12" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/Kitana1.png';"
+                onmouseout="this.src=' IMG-Produtos/Kitana.png';" >
+                <div>
+                  <p>EM BREVE</p>
+                 </div>
+              </figure>
+
+
+              <figure>
+                <strong>Funko Pop! Pokémon - Pikachu</strong>
+                <img src="IMG-Produtos/pikachu.png" width="300px" height="430px" alt="Funko 12" 
+                onmouseover="this.src ='IMG-ProdutosFilp/pikachu1.png ';"
+                onmouseout="this.src='IMG-Produtos/pikachu.png';" >
+                <div>
+                  <p>EM BREVE</p>
+                 </div>
+              </figure>
+
+              
+              <figure>
+                <strong>Funko Pop! League of Legends - Yone</strong>
+                <img src="IMG-Produtos/yone.png" width="300px" height="430px" alt="Funko 12" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/yone1.png ';"
+                onmouseout="this.src='IMG-Produtos/yone.png';" >
+                <div>
+                 <p>EM BREVE</p>
+                </div>
+              </figure>
+
+            </div>
+          </section>
+    </main>
+
+
+     <footer class="fixar"><!--Footer-->
+            <div class="footer-top">
+                <div class="testeimg"><img src="Icons/Logo.png" width="250px"/><!--Logo-->
+                </div>
+                <div class="cartas">
+                    <ul>
+                        <h3 class="Newslatter">Starpop</h3>
+                        <li><a href="animes.html">Animes</a></li>
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="filme.html">Filmes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h3 class="Newslatter">Redes Sociais</h3>
+                        <div class="icons">
+                            <li><a href="https://x.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div>
+                    <form class="Newslatter" id="newsletter-form">
+                        <h3>Inscreva-se na nossa Newsletter</h3>
+                        <div class="correio">
+                            <input class="fundoin" type="email" id="user_email" placeholder="E-mail" required>
+                            <input class="fundoin" type="text" id="user_name" placeholder="Nome" required>
+                        </div>
+                        <button class="botaoin" type="submit" style="color: black;">Inscreva-se</button>
+                    </form>
+                    
+                  <!-- Script para funcionamenton da newslatter -->
+                  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                  <script src="Scripts/newslatter.js"></script>
+            <div>
+        </footer>
+</body>
+</html>

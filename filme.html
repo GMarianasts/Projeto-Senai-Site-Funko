@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="imagex/png" href="Icons/Logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarPop</title>
+    
+    <link rel="stylesheet" href="filme.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+ <script src="Scripts/carrEpes.js"></script>
+
+ <!-- Cabeçalho -->
+<header>
+  <nav>
+    <div class="cabecalho">
+     <div class="logo"><a href="index.html"><img src="Icons/Logo.png" width="180px"></a></div>
+
+     <!-- Barra de pesquisa  -->
+
+     <div id="container">
+        <div class="input-group">
+          <div class="input-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input id="search" 
+          type="text"
+           class="input-field"
+           placeholder="Pesquisar">
+
+        </div>
+     </div>
+    
+
+      <ul>
+          <li><a href="index.html" >Home</li>
+            <li><a href="animes.html">Animes</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="filme.html">Filmes</a></li>
+          <li><i class="bi bi-cart2"></i></li>
+          <a href="carrinho.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+          </svg></a>
+        </ul>
+    </div>
+  </nav>
+</header>
+
+    <main>
+
+      <!-- Imagem de destaque (parte filmes) -->
+      <img src="Icons/DestaquesFilmes.png" width="100%" alt="">
+
+       <!-- Container com os produtos -->
+        <section id="lista-produtos">
+            <div class="grid-container">
+              <figure>
+                <strong> Funko Pop! Star Wars - Anakin Skywalker</strong>
+                <a href="Especificacoes/FunkoAnakin.html" target="_blank"><img src="IMG-Produtos/anakin_StarWars.png"width="300px" height="430px" alt="Funko 1" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/Anakin1.png';"
+                onmouseout="this.src='IMG-Produtos/anakin_StarWars.png';" ></a>
+              <div>
+                <div>
+                  <span>R$134,99</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Anakin"
+                          data-nome="Anakin"
+                          data-preco="134.99"
+                          data-imagem="IMG-Produtos/anakin_StarWars.png">Adicionar ao Carrinho</button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong> Funko Pop! Marvel Clássicos - Capitão América</strong>
+                <a href="Especificacoes/FunkoCapitaoMarvel.html" target="_blank"><img src="IMG-Produtos/capitao_marvel.png"width="300px" height="430px" alt="Funko 2" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/capitao1.png';"
+                onmouseout="this.src='IMG-Produtos/capitao_marvel.png';" ></a>
+                <div>
+                 
+                  <div>
+                    <span>R$150,00</span>
+                    <button type="button" class="adicionar-carrinho"
+                            data-id="Capitão América"
+                            data-nome="Capitão América"
+                            data-preco="150.00"
+                            data-imagem="IMG-Produtos/capitao_marvel.png">Adicionar ao Carrinho</button>
+                  </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Coraline - Coraline Com Capa de Chuva (Exclusivo Diamond)</strong>
+                <a href="Especificacoes/FunkoCoraline.html" target="_blank"><img src="IMG-Produtos/coraline.png"width="300px" height="430px" alt="Funko 3" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/coraline1.png';"
+                onmouseout="this.src='IMG-Produtos/coraline.png';" ></a>
+                <div>
+                  <span>R$523,50</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Coraline"
+                          data-nome="Coraline"
+                          data-preco="523.50"
+                          data-imagem="IMG-Produtos/coraline.png">Adicionar ao Carrinho <span class="limitado">LIMITADO</span></button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Harry Potter - Harry Potter </strong>
+                <a href="Especificacoes/FunkoHarryPotter.html" target="_blank"><img src="IMG-Produtos/harry_potter.png"width="300px" height="430px" alt="Funko 4" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/harrypotter1.png ';"
+                onmouseout="this.src='IMG-Produtos/harry_potter.png';" ></a>
+                <div>
+                  <span>R$250,00</span>
+                 <button type="button" class="adicionar-carrinho"
+                          data-id="Harry Potter"
+                          data-nome="Harry Potter"
+                          data-preco="250.00"
+                          data-imagem="IMG-Produtos/harry_potter.png">Adicionar ao Carrinho</button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! O Senhor dos Anéis - Legolas</strong>
+                <a href="Especificacoes/FunkoLegolas.html" target="_blank"><img src="IMG-Produtos/legolas_SenhorDosAneis.png"width="300px" height="430px" alt="Funko 5" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/legolas1.png ';"
+                onmouseout="this.src='IMG-Produtos/legolas_SenhorDosAneis.png';" ></a>
+                <div>
+                  <span>R$193,10</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Legolas"
+                          data-nome="Legolas"
+                          data-preco="193.10"
+                          data-imagem="IMG-Produtos/legolas_SenhorDosAneis.png">Adicionar ao Carrinho  <span class="desconto">- 20%</span></button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong> Funko Pop! A Princesa e o Sapo - Tiana </strong>
+                <a href="Especificacoes/FunkoPrincesaTiana.html" target="_blank"><img src="IMG-Produtos/princesas_tiana.png"width="300px" height="430px" alt="Funko 6" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/princesaTiana1.png ';"
+                onmouseout="this.src='IMG-Produtos/princesas_tiana.png';"></a>
+                <div>
+                  <span>R$250,00</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Princesa Tiana"
+                          data-nome="Princesa Tiana"
+                          data-preco="250.00"
+                          data-imagem="IMG-Produtos/princesas_tiana.png">Adicionar ao Carrinho</button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Barbie - Barbie Western</strong>
+                <a href="Especificacoes/FunkoBarbie.html" target="_blank"><img src="IMG-Produtos/barbie.png"width="300px" height="430px" alt="Funko 7" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/barbie1.png ';"
+                onmouseout="this.src='IMG-Produtos/barbie.png';" ></a>
+                <div>
+                  <span>R$136,99</span>
+                   <button type="button" class="adicionar-carrinho"
+                          data-id="Barbie"
+                          data-nome="Barbie"
+                          data-preco="136.99"
+                          data-imagem="IMG-Produtos/barbie.png">Adicionar ao Carrinho  <span class="desconto">- 45%</span></button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! John Wick 3 - John Wick</strong>
+                <a href="Especificacoes/FunkoJohnWick.html" target="_blank"><img src="IMG-Produtos/johnWick.png"width="300px" height="430px" alt="Funko 8" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/johnwick1.png ';"
+                onmouseout="this.src='IMG-Produtos/johnWick.png';" ></a>
+                <div>
+                  <span>R$199,90</span>
+                   <button type="button" class="adicionar-carrinho"
+                          data-id="John Wick"
+                          data-nome="John Wick"
+                          data-preco="199.90"
+                          data-imagem="IMG-Produtos/johnWick.png">Adicionar ao Carrinho</button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! - Toy Story - Alien</strong>
+                <a href="Especificacoes/FunkoToyStory.html" target="_blank"><img src="IMG-Produtos/toyStory.png"width="300px" height="430px" alt="Funko 9" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/aliens1.png ';"
+                onmouseout="this.src='IMG-Produtos/toyStory.png';" ></a>
+                <div>
+                  <span>R$132,85</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Aliens"
+                          data-nome="Aliens"
+                          data-preco="132.85"
+                          data-imagem="IMG-Produtos/toyStory.png">Adicionar ao Carrinho</button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong> Funko Pop! UP! - Russell com Chocolate</strong>
+                <a href="Especificacoes/FunkoUp.html" target="_blank"><img src="IMG-Produtos/up.png"width="300px" height="430px" alt="Funko 10" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/russell1.png ';"
+                onmouseout="this.src='IMG-Produtos/up.png';" ></a>
+                <div>
+                  <span>R$125,50</span>
+                  <button type="button" class="adicionar-carrinho"
+                          data-id="Russell"
+                          data-nome="Russell"
+                          data-preco="125.50"
+                          data-imagem="IMG-Produtos/up.png">Adicionar ao Carrinho</button>
+                </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Minions 2 - BOB COM PIJAMA </strong>
+                <img src="IMG-Produtos/minions.png" width="300px" height="430px" alt="Funko 11" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/minions1.png ';"
+                onmouseout="this.src='IMG-Produtos/minions.png';" >
+                <div>
+                  <p>EM BREVE</p>
+                 </div>
+              </figure>
+          
+              <figure>
+                <strong>Funko Pop! Velozes e Furiosos - Dominic Toretto</strong>
+                <img src="IMG-Produtos/domicToretto.png" width="300px" height="430px" alt="Funko 12" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/domicToretto1.png ';"
+                onmouseout="this.src='IMG-Produtos/domicToretto.png';" >
+                <div>
+                  <p>EM BREVE</p>
+                 </div>
+              </figure>
+
+               <figure>
+                <strong> Funko Pop! DC Comics Batman - Batman Sangrando</strong>
+                <img src=" IMG-Produtos/batman.png" width="300px" height="430px" alt="Funko 12" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/batman1.png';"
+                onmouseout="this.src=' IMG-Produtos/batman.png';" >
+                <div>
+                  <p>EM BREVE</p>
+                 </div>
+              </figure>
+
+
+              <figure>
+                <strong>Funko Pop! Enrolados - Rapunzel</strong>
+                <img src="IMG-Produtos/rapunzel.png" width="300px" height="430px" alt="Funko 12" 
+                onmouseover="this.src ='IMG-ProdutosFilp/rapunzel1.png ';"
+                onmouseout="this.src='IMG-Produtos/rapunzel.png';" >
+                <div>
+                  <p>EM BREVE</p>
+                 </div>
+              </figure>
+
+              
+              <figure>
+                <strong>Funko Pop! Piratas do Caribes - Capitão Jack Sparrow  </strong>
+                <img src="IMG-Produtos/jacksparrow.png" width="300px" height="430px" alt="Funko 12" 
+                onmouseover="this.src = 'IMG-ProdutosFilp/jacksparrow1.png ';"
+                onmouseout="this.src='IMG-Produtos/jacksparrow.png';" >
+                <div>
+                 <p>EM BREVE</p>
+                </div>
+              </figure>
+
+           
+
+            </div>
+          </section>
+    </main>
+
+
+       <footer class="fixar"><!--Footer-->
+            <div class="footer-top">
+                <div class="testeimg"><img src="Icons/Logo.png" width="250px"/><!--Logo-->
+                </div>
+                <div class="cartas">
+                    <ul>
+                        <h3 class="Newslatter">Starpop</h3>
+                        <li><a href="animes.html">Animes</a></li>
+                        <li><a href="games.html">Games</a></li>
+                        <li><a href="filme.html">Filmes</a></li>
+                    </ul>
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <h3 class="Newslatter">Redes Sociais</h3>
+                        <div class="icons">
+                            <li><a href="https://x.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div>
+                    <form class="Newslatter" id="newsletter-form">
+                        <h3>Inscreva-se na nossa Newsletter</h3>
+                        <div class="correio">
+                            <input class="fundoin" type="email" id="user_email" placeholder="E-mail" required>
+                            <input class="fundoin" type="text" id="user_name" placeholder="Nome" required>
+                        </div>
+                        <button class="botaoin" type="submit" style="color: black;">Inscreva-se</button>
+                    </form>
+                    
+                    <!-- Script para funcionamenton da newslatter -->
+                  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                  <script src="Scripts/newslatter.js"></script>
+            <div>
+        </footer>
+
+</body>
+</html>
