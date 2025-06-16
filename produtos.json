@@ -1,0 +1,269 @@
+[
+  {
+        "id": "001",
+        "nome": "Funko Pop! Star Wars - Anakin Skywalker",
+        "preco": 134.99,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/anakin_StarWars.png"
+    },
+    {
+      "id": "002",
+      "nome": "Funko Pop! Marvel Clássicos - Capitão América",
+      "preco": 150.00,
+      "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+      "imagem": "IMG-Produtos/capitao_marvel.png"
+    },
+    {
+        "id": "003",
+        "nome": "Funko Pop! Coraline - Coraline Com Capa de Chuva (Exclusivo Diamond)",
+        "preco": 532.50,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/coraline.png"
+      },
+      {
+        "id": "004",
+        "nome": "Funko Pop! Harry Potter - Harry Potter",
+        "preco": 250.00,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/harry_potter.png"
+      },
+      {
+        "id": "005",
+        "nome": "Funko Pop! O Senhor dos Anéis - Legolas",
+        "preco": 193.10,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/legolas_SenhorDosAneis.png"
+      },
+      {
+        "id": "006",
+        "nome": "Funko Pop! A Princesa e o Sapo - Tiana",
+        "preco": 250.00,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/princesas_tiana.png"
+      },
+      {
+        "id": "007",
+        "nome": "Funko Pop! Barbie - Barbie Western",
+        "preco": 136.90,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/barbie.png"
+      },
+      {
+        "id": "008",
+        "nome": "Funko Pop! John Wick 3 - John Wick",
+        "preco": 199.90,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/johnWick.png"
+      },
+      {
+        "id": "009",
+        "nome": "Funko Pop! - Toy Story - Alien",
+        "preco": 138.85,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/toyStory.png"
+      },
+      {
+        "id": "010",
+        "nome": "Funko Pop! UP! - Russell com Chocolate",
+        "preco": 125.50,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/up.png"
+      },
+      {
+        "id": "011",
+        "nome": "Funko Pop! Five Nights at Freddy's - Twisted Bonnie",
+        "preco": 156.55,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/bonnie_FiveNight.png"
+      },
+      {
+        "id": "012",
+        "nome": "Funko Pop! Crash Bandicoot - Crash",
+        "preco": 598.99,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/crash.png"
+      },
+      {
+        "id": "013",
+        "nome": "Funko Pop! Assassin's Creed - Eivor",
+        "preco": 139.99,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/eivor.png"
+      },
+      {
+        "id": "014",
+        "nome": "Funko Pop! Sonic - Sonic com Esmeralda",
+        "preco": 137.90,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/sonic.png"
+      },
+      {
+        "id": "015",
+        "nome": "Funko Pop! Mortal Kombat - Sub Zero",
+        "preco": 810.00,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/subZero.png"
+      },
+      {
+        "id": "016",
+        "nome": "Funko Pop! League of Legends - Viego",
+        "preco": 153.00,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/viego.png"
+      },
+      {
+        "id": "017",
+        "nome": "Funko Pop! Overwatch 2- Echo (Brilha no escuro)",
+        "preco": 259.17,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/echo.png"
+      },
+      {
+        "id": "018",
+        "nome": "Funko Pop! Minecraft - Steve",
+        "preco": 255.47,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "imG-Produtos/steve.png"
+      },
+      {
+        "id": "019",
+        "nome": "Funko Pop! World of Warcraft - The Lich King",
+        "preco": 149.00,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/TheLickKing.png"
+      },
+      {
+        "id": "020",
+        "nome": "Funko Pop! Ghost Of Tsushima - Jin Sakai",
+        "preco":1141.76,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/JinSakai.png"
+      },
+      {
+        "id": "021",
+        "nome": "Funko Pop! Black Clover - Black Asta",
+        "preco": 119.22,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/asta_blackClover.png"
+      },
+      {
+        "id": "022",
+        "nome": "Funko Pop! Pokémon - Charizard",
+        "preco": 134.96,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/charizard_Pokemon.png"
+      },
+      {
+        "id": "023",
+        "nome": "Funko Pop! Naruto Shippuden- Naruto Uzumaki (Edição Especial)",
+        "preco": 404.14,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/naruto.png"
+      },
+      {
+        "id": "024",
+        "nome": "Funko Pop! One Piece - Orobi",
+        "preco": 134.99,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/orobi_OnePiece.png"
+      },
+      {
+        "id": "025",
+        "nome": "Funko Pop! Demon Slayer - Tanjiro Kamado",
+        "preco": 127.74,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/tanjiro_Demon.png"
+      },
+      {
+        "id": "026",
+        "nome": "Funko Pop! My Hero Academia - Todoroki",
+        "preco": 170.50,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/todoroki_MyHero.png"
+      },
+      {
+        "id": "027",
+        "nome": "Funko Pop! Pokémon - Sylveon",
+        "preco": 149.99,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/sylveon.png"
+      },
+      {
+        "id": "028",
+        "nome": "Funko Pop! Naruto - Pain",
+        "preco": 127.50,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "imG-Produtos/painNaruto.png"
+      },
+      {
+        "id": "029",
+        "nome": "Funko Pop! Haikyuu - Yu Nishinoya",
+        "preco": 253.53,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/YU_NISHINOYA.png"
+      },
+      {
+        "id": "030",
+        "nome": "Funko Pop! Dragon Ball Z - Goku",
+        "preco": 189.90,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/goku.png"
+      },
+      {
+        "id": "031",
+        "nome": "Funko Pop! One Piece - Luffy com Carne",
+        "preco": 134.99,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/Luffy.png"
+      },
+      {
+        "id": "032",
+        "nome": "Funko Pop! Homem Aranha 2 - Peter Parker",
+        "preco": 134.99,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/aranha.png"
+      },
+      {
+        "id": "033",
+        "nome": "Funko Pop! Wreck-It Ralph 2 - Vanellope Sugar Rush",
+        "preco": 677.27,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição STAR POP</strong>\n  <p>\n    → Inicie uma coleção, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/vanellope_Detona.png"
+      },
+      {
+        "id": "034",
+        "nome": "Funko Pop! NewJeans - Haerin",
+        "preco": 264.93,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição <span style=\"color: green\">HAERIN<br> New Hair New Tee, NewJeans do you see?</span></strong>\n  <p>\n    → Inicie uma nova coleção, com o maior girl group atual, <span style=\"color: green\">NewJeans</span>, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/Haerin_NewJeans.png"
+      },
+      {
+        "id": "035",
+        "nome": "Funko Pop! NewJeans - Minji",
+        "preco": 263.88,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição <span style=\"color: blue\">MINJI<br>Look it's a new me, switched up, who is this?</span></strong>\n  <p>\n    → Inicie uma nova coleção, com o maior girl group atual, <span style=\"color: blue\">NewJeans</span>, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/Minij_NewJeans.png"
+      },
+      {
+        "id": "036",
+        "nome": "Funko Pop! NewJeans - Danielle",
+        "preco": 264.93,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição <span style=\"color: yellow\">DANIELLE<br>You're my favo...rite flavour bubble gum</span></strong>\n  <p>\n    → Inicie uma nova coleção, com o maior girl group atual, <span style=\"color: yellow\">NewJeans</span>, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/Danielle_NewJeans.png"
+      },
+      {
+        "id": "037",
+        "nome": "Funko Pop! NewJeans - Hanni",
+        "preco": 303.15,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição <span style=\"color: pink\">HANNI<br>OH my baby sweet like bubble gum, boucing like playing balls</span></strong>\n  <p>\n    → Inicie uma nova coleção, com o maior girl group atual, <span style=\"color: pink\">NewJeans</span>, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/Hanni_NewJeans.png"
+      },
+      {
+        "id": "038",
+        "nome": "Funko Pop! NewJeans - Hyein",
+        "preco": 169.90,
+        "descricao": "<div class=\"descricao\" style=\"font-size: 25px;\">\n  <strong>Descrição <span style=\"color: purple\">HYEIN<br>Stay in the middle, like you a little</span></strong>\n  <p>\n    → Inicie uma nova coleção, com o maior girl group atual, <span style=\"color: purple\">NewJeans</span>, decore seu ambiente, presenteie alguém com a linha Pop!™ da empresa norte-americana Funko®.\n  </p>\n  <strong>Características do Produto</strong>\n  <ul>\n    <li>→ Boneco de PVC/Plástico (Vinil).</li>\n    <li>→ Design exclusivo desenvolvido pela empresa Funko®.</li>\n    <li>→ A maior variedade de licenças do mundo dos colecionáveis.</li>\n    <li>→ Caixa em formato “window-box”, perfeita para colecionar e expor seu Pop!</li>\n  </ul>\n  <p>\n    A Star POP só trabalha com produtos originais e de qualidade, afinal também somos Popers e queremos o melhor desse universo para nós e nossos clientes!\n  </p>\n</div>",
+        "imagem": "IMG-Produtos/Hyein_NewJeans.png"
+      }
+  ]
+  

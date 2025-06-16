@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="imagex/png" href="Icons/Logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Produto.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="cabecalho">
+           <div class="logo"><a href="index.html"><img src="Icons/Logo.png" width="180px"></a></div>
+              <ul>
+                <li><a href="index.html" >Home</li>
+                <li><a href="animes.html">Animes</a></li> 
+                <li><a href="games.html">Games</a></li>
+                <li><a href="filme.html">Filmes</a></li>
+                <li><i class="bi bi-cart2"></i></li>
+                <a href="carrinho.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                  <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                </svg></a>
+              </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+
+
+        <div>
+
+    <div class="produto-container">
+        <div class="zoom-container">
+            <img src="" alt="Imagem com Zoom" class="zoom-image" />
+        </div>
+
+        <div class="info-container">
+            <div class="card-descricao">
+                <strong style="font-size: 35px;">
+                    
+                    <br><br>
+                    
+                    <br><br><br>
+                    <img src="../Icons/fretegratis.png" alt="Frete Grátis" width="700px">
+                </strong>
+            </div>
+
+
+
+            
+        </div>
+    </div>
+    <div class="estrela">
+        <div id="starRating" class="stars"></div>
+        <p id="averageRating"></p>
+        <div class="rating-summary" id="ratingSummary"></div>
+    </div>
+        </div>
+
+
+
+        <script src="Scripts/pagpadrao.js"></script>
+        <script src="Scripts/pagpadrao.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11">/* alerta de envio do pedido e inscrição no site*/</script>
+            
+    </main>
+            <footer><!--Footer-->
+                <div class="footer-top">
+                    <div class="testeimg"><img src="Icons/Logo.png" width="250px"/><!--Logo-->
+                    </div>
+                    <div class="cartas">
+                        <ul>
+                            <h3 class="Newslatter">Starpop</h3>
+                            <li><a href="animes.html">Animes</a></li>
+                            <li><a href="games.html">Games</a></li>
+                            <li><a href="filme.html">Filmes</a></li>
+                        </ul>
+                    </div>
+                    <div class="redes-sociais">
+                        <ul>
+                            <h3 class="Newslatter">Redes Sociais</h3>
+                            <div class="icons">
+                                <li><a href="https://x.com/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                                <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div>
+                        <form class="Newslatter" id="newsletter-form">
+                            <h3>Inscreva-se na nossa Newsletter</h3>
+                            <div class="correio">
+                                <input class="fundoin" type="email" id="user_email" placeholder="E-mail" required>
+                                <input class="fundoin" type="text" id="user_name" placeholder="Nome" required>
+                            </div>
+                            <button class="botaoin" type="submit" style="color: black;">Inscreva-se</button>
+                        </form>
+                        
+                        <!-- Script para funcionamenton da newslatter -->
+                        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+                        <script src="Scripts/newslatter.js"></script>
+                        <script src="Scripts/prod.js"></script>
+                <div>
+            </footer>
+
+</body>
+
+</html>
